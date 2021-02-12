@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>说明 on 前端开发初级成长计划 v1</title>
-    <link>http://example.org/docs/readme/</link>
+    <link>https://rush-uni.github.io/docs/readme/</link>
     <description>Recent content in 说明 on 前端开发初级成长计划 v1</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language><atom:link href="http://example.org/docs/readme/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh</language><atom:link href="https://rush-uni.github.io/docs/readme/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
