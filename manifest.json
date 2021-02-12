@@ -1,14 +1,14 @@
 {
   "name": "前端开发初级成长计划 v1",
   "short_name": "前端开发初级成长计划 v1",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/web-dev-to-beginner-v1/",
+  "scope": "/web-dev-to-beginner-v1/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/web-dev-to-beginner-v1/favicon.svg",
       "sizes": "512x512"
     }
   ]
