@@ -1,1 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on 前端开发初级成长计划 v1</title><link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/</link><description>Recent content in Tags on 前端开发初级成长计划 v1</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://rush-uni.github.io/web-dev-to-beginner-v1/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>development</title><link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/development/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/development/</guid><description/></item><item><title>go</title><link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/go/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/go/</guid><description/></item><item><title>golang</title><link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/golang/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/golang/</guid><description/></item><item><title>hugo</title><link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/hugo/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/hugo/</guid><description/></item><item><title>templates</title><link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/templates/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/templates/</guid><description/></item><item><title>themes</title><link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/themes/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/themes/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 前端开发初级成长计划 v1</title>
+    <link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/</link>
+    <description>Recent content in Tags on 前端开发初级成长计划 v1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://rush-uni.github.io/web-dev-to-beginner-v1/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>development</title>
+      <link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/go/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/templates/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/themes/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rush-uni.github.io/web-dev-to-beginner-v1/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

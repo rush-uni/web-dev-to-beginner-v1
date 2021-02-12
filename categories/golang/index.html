@@ -1,38 +1,622 @@
-<!doctype html><html lang=zh dir=ltr><head><meta name=generator content="Hugo 0.80.0"><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content><meta name=theme-color content="#FFFFFF"><meta property="og:title" content="golang"><meta property="og:description" content><meta property="og:type" content="website"><meta property="og:url" content="https://rush-uni.github.io/web-dev-to-beginner-v1/categories/golang/"><meta property="og:updated_time" content="2014-04-02T00:00:00+00:00"><title>golang | 前端开发初级成长计划 v1</title><link rel=manifest href=/web-dev-to-beginner-v1/manifest.json><link rel=icon href=/web-dev-to-beginner-v1/favicon.png type=image/x-icon><link rel=stylesheet href=/web-dev-to-beginner-v1/book.min.6c7c6446dfdee7c8c933e9bbc6e80ee3ed6c913b2a59519f2092c3c6a9d63e55.css integrity="sha256-bHxkRt/e58jJM+m7xugO4+1skTsqWVGfIJLDxqnWPlU="><script defer src=/web-dev-to-beginner-v1/zh.search.min.b3627189b7a85441de8d7dac3d72775c1da997486e597bc77e8a7a2d23a65b26.js integrity="sha256-s2JxibeoVEHejX2sPXJ3XB2pl0huWXvHfop6LSOmWyY="></script><link rel=alternate type=application/rss+xml href=https://rush-uni.github.io/web-dev-to-beginner-v1/categories/golang/index.xml title="前端开发初级成长计划 v1"></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
-<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a href=/web-dev-to-beginner-v1><span>前端开发初级成长计划 v1</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=搜索 aria-label=搜索 maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul><li><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/readme/>说明</a><ul></ul></li><li class=book-section-flat><span>目录</span><ul><li><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/01.-%E6%A6%82%E8%BF%B0/>01. 概述</a></li><li><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/02.-html/>02. H T M L</a></li></ul></li><li class=book-section-flat><span>Shortcodes</span><ul><li><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/buttons/>Buttons</a></li><li><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/columns/>Columns</a></li><li><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/details/>Details</a></li><li><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/expand/>Expand</a></li><li><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/hints/>Hints</a></li><li><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/katex/>Katex</a></li><li><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/mermaid/>Mermaid</a></li><li><input type=checkbox id=section-d3fc1bf6d66cd84b896a0af9f40cb1d5 class=toggle>
-<label for=section-d3fc1bf6d66cd84b896a0af9f40cb1d5 class="flex justify-between"><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/section/>Section</a>
-<span>▾</span></label><ul><li><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/section/page1/>Page1</a></li><li><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/section/page2/>Page2</a></li></ul></li><li><a href=https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/tabs/>Tabs</a></li></ul></li></ul><ul><li><a href=/web-dev-to-beginner-v1/posts/>Blog</a></li></ul></nav><script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/web-dev-to-beginner-v1/svg/menu.svg class=book-icon alt=Menu></label>
-<strong>golang</strong>
-<label for=toc-control><img src=/web-dev-to-beginner-v1/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav><ul><li class=book-section-flat><strong>Categories</strong><ul><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/categories/development/>Development</a>
-<span>2</span></li><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/categories/golang/>golang</a>
-<span>2</span></li></ul></li><li class=book-section-flat><strong>Tags</strong><ul><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/tags/development/>development</a>
-<span>2</span></li><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/tags/go/>go</a>
-<span>2</span></li><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/tags/golang/>golang</a>
-<span>2</span></li><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/tags/hugo/>hugo</a>
-<span>1</span></li><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/tags/templates/>templates</a>
-<span>1</span></li><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/tags/themes/>themes</a>
-<span>1</span></li></ul></li></ul></nav></aside></header><article class="markdown book-post"><h2><a href=/web-dev-to-beginner-v1/posts/goisforlovers/>(Hu)go Template Primer</a></h2><h5>April 2, 2014</h5><div><a href=/web-dev-to-beginner-v1/categories/development/>Development</a>,
-<a href=/web-dev-to-beginner-v1/categories/golang/>golang</a></div><div><a href=/web-dev-to-beginner-v1/tags/go/>go</a>,
-<a href=/web-dev-to-beginner-v1/tags/golang/>golang</a>,
-<a href=/web-dev-to-beginner-v1/tags/templates/>templates</a>,
-<a href=/web-dev-to-beginner-v1/tags/themes/>themes</a>,
-<a href=/web-dev-to-beginner-v1/tags/development/>development</a></div><p>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+
+<head>
+  <meta name="generator" content="Hugo 0.80.0" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="golang" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://rush-uni.github.io/web-dev-to-beginner-v1/categories/golang/" />
+<meta property="og:updated_time" content="2014-04-02T00:00:00+00:00" />
+<title>golang | 前端开发初级成长计划 v1</title>
+<link rel="manifest" href="/web-dev-to-beginner-v1/manifest.json">
+<link rel="icon" href="/web-dev-to-beginner-v1/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/web-dev-to-beginner-v1/book.min.6c7c6446dfdee7c8c933e9bbc6e80ee3ed6c913b2a59519f2092c3c6a9d63e55.css" integrity="sha256-bHxkRt/e58jJM&#43;m7xugO4&#43;1skTsqWVGfIJLDxqnWPlU=">
+<script defer src="/web-dev-to-beginner-v1/zh.search.min.2af140c60d65b4218790719e7b130d70c49f47e12e30eebf9161527c3130199a.js" integrity="sha256-KvFAxg1ltCGHkHGeexMNcMSfR&#43;EuMO6/kWFSfDEwGZo="></script>
+<link rel="alternate" type="application/rss+xml" href="https://rush-uni.github.io/web-dev-to-beginner-v1/categories/golang/index.xml" title="前端开发初级成长计划 v1" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="/web-dev-to-beginner-v1"><span>前端开发初级成长计划 v1</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/readme/" class="">使用说明</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>目录</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/01%E6%A6%82%E8%BF%B0/" class="">01概述</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/02html/" class="">02 H T M L</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Shortcodes</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/buttons/" class="">Buttons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/columns/" class="">Columns</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/details/" class="">Details</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/expand/" class="">Expand</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/hints/" class="">Hints</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/katex/" class="">Katex</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/mermaid/" class="">Mermaid</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="toggle"  />
+    <label for="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="flex justify-between">
+      <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/section/" class="">Section</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/section/page1/" class="">Page1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/section/page2/" class="">Page2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/shortcodes/tabs/" class="">Tabs</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/web-dev-to-beginner-v1/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/web-dev-to-beginner-v1/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>golang</strong>
+
+  <label for="toc-control">
+    
+    <img src="/web-dev-to-beginner-v1/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav>
+  <ul>
+  
+    
+    <li class="book-section-flat">
+      <strong>Categories</strong>
+      <ul>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/categories/development/">Development</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/categories/golang/">golang</a>
+          <span>2</span>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+    
+    <li class="book-section-flat">
+      <strong>Tags</strong>
+      <ul>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/tags/development/">development</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/tags/go/">go</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/tags/golang/">golang</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/tags/hugo/">hugo</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/tags/templates/">templates</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/tags/themes/">themes</a>
+          <span>1</span>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/web-dev-to-beginner-v1/posts/goisforlovers/">(Hu)go Template Primer</a>
+    </h2>
+    
+  <h5>April 2, 2014</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/web-dev-to-beginner-v1/categories/development/">Development</a>, 
+      <a href="/web-dev-to-beginner-v1/categories/golang/">golang</a>
+  </div>
+  
+
+  
+  <div>
+    
+      <a href="/web-dev-to-beginner-v1/tags/go/">go</a>, 
+      <a href="/web-dev-to-beginner-v1/tags/golang/">golang</a>, 
+      <a href="/web-dev-to-beginner-v1/tags/templates/">templates</a>, 
+      <a href="/web-dev-to-beginner-v1/tags/themes/">themes</a>, 
+      <a href="/web-dev-to-beginner-v1/tags/development/">development</a>
+  </div>
+  
+
+
+    <p>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates.
-<a href=/web-dev-to-beginner-v1/posts/goisforlovers/>...</a></p></article><article class="markdown book-post"><h2><a href=/web-dev-to-beginner-v1/posts/hugoisforlovers/>Getting Started with Hugo</a></h2><h5>April 2, 2014</h5><div><a href=/web-dev-to-beginner-v1/categories/development/>Development</a>,
-<a href=/web-dev-to-beginner-v1/categories/golang/>golang</a></div><div><a href=/web-dev-to-beginner-v1/tags/go/>go</a>,
-<a href=/web-dev-to-beginner-v1/tags/golang/>golang</a>,
-<a href=/web-dev-to-beginner-v1/tags/hugo/>hugo</a>,
-<a href=/web-dev-to-beginner-v1/tags/development/>development</a></div><p>Step 1. Install Hugo # Go to Hugo releases and download the appropriate version for your OS and architecture.
+        <a href="/web-dev-to-beginner-v1/posts/goisforlovers/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/web-dev-to-beginner-v1/posts/hugoisforlovers/">Getting Started with Hugo</a>
+    </h2>
+    
+  <h5>April 2, 2014</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/web-dev-to-beginner-v1/categories/development/">Development</a>, 
+      <a href="/web-dev-to-beginner-v1/categories/golang/">golang</a>
+  </div>
+  
+
+  
+  <div>
+    
+      <a href="/web-dev-to-beginner-v1/tags/go/">go</a>, 
+      <a href="/web-dev-to-beginner-v1/tags/golang/">golang</a>, 
+      <a href="/web-dev-to-beginner-v1/tags/hugo/">hugo</a>, 
+      <a href="/web-dev-to-beginner-v1/tags/development/">development</a>
+  </div>
+  
+
+
+    <p>Step 1. Install Hugo #  Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
-Step 2. Build the Docs # Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Step 2. Build the Docs #  Hugo has its own example site which happens to also be the documentation site you are reading right now.
 Follow the following steps:
-<a href=/web-dev-to-beginner-v1/posts/hugoisforlovers/>...</a></p></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div></footer><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav><ul><li class=book-section-flat><strong>Categories</strong><ul><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/categories/development/>Development</a>
-<span>2</span></li><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/categories/golang/>golang</a>
-<span>2</span></li></ul></li><li class=book-section-flat><strong>Tags</strong><ul><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/tags/development/>development</a>
-<span>2</span></li><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/tags/go/>go</a>
-<span>2</span></li><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/tags/golang/>golang</a>
-<span>2</span></li><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/tags/hugo/>hugo</a>
-<span>1</span></li><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/tags/templates/>templates</a>
-<span>1</span></li><li class="flex justify-between"><a href=/web-dev-to-beginner-v1/tags/themes/>themes</a>
-<span>1</span></li></ul></li></ul></nav></div></aside></main></body></html>
+        <a href="/web-dev-to-beginner-v1/posts/hugoisforlovers/">...</a>
+      
+    </p>
+  </article>
+  
+
+  
+
+
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  <nav>
+  <ul>
+  
+    
+    <li class="book-section-flat">
+      <strong>Categories</strong>
+      <ul>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/categories/development/">Development</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/categories/golang/">golang</a>
+          <span>2</span>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+    
+    <li class="book-section-flat">
+      <strong>Tags</strong>
+      <ul>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/tags/development/">development</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/tags/go/">go</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/tags/golang/">golang</a>
+          <span>2</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/tags/hugo/">hugo</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/tags/templates/">templates</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/web-dev-to-beginner-v1/tags/themes/">themes</a>
+          <span>1</span>
+        </li>
+      
+      </ul>
+    </li>
+    
+  
+  </ul>
+</nav>
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

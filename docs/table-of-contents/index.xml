@@ -1,15 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>目录 on 前端开发初级成长计划 v1</title><link>https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/</link><description>Recent content in 目录 on 前端开发初级成长计划 v1</description><generator>Hugo -- gohugo.io</generator><language>zh</language><atom:link href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/01.-%E6%A6%82%E8%BF%B0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/01.-%E6%A6%82%E8%BF%B0/</guid><description>概述 # 1. 欢迎 # 通过《前端开发初级成长计划 v1》，你将获得 HTML，CSS 和 JavaScript 的代码编写经验，学习如何通过 Git 命令来保存你的代码，以及使用 Node.js 为你的网站提供服务。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>目录 on 前端开发初级成长计划 v1</title>
+    <link>https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/</link>
+    <description>Recent content in 目录 on 前端开发初级成长计划 v1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language><atom:link href="https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/01%E6%A6%82%E8%BF%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/01%E6%A6%82%E8%BF%B0/</guid>
+      <description>概述 #  1. 欢迎 #  通过《前端开发初级成长计划 v1》，你将获得 HTML，CSS 和 JavaScript 的代码编写经验，学习如何通过 Git 命令来保存你的代码，以及使用 Node.js 为你的网站提供服务。
 以下是本计划所涉及的内容大纲：
-概述 HTML CSS HTML和CSS实战 JavaScript HTML,CSS和JavaScript实战 Ajax 使用第三方库 Git和Bash Node.js 部署App 作为《前端开发初级成长计划 v1》的开始篇章，首先介绍成为 Web 开发人员涉及的一些基础知识。
+ 概述 HTML CSS HTML和CSS实战 JavaScript HTML,CSS和JavaScript实战 Ajax 使用第三方库 Git和Bash Node.js 部署App  作为《前端开发初级成长计划 v1》的开始篇章，首先介绍成为 Web 开发人员涉及的一些基础知识。
 让我们开始。
-2. 我们将学习什么 # 总的来说，我们将学习创建一个网站所需要的基础知识。
-2.1 掌握术语 # 学习编程中首先碰到的困难可能是你需要去理解编程开发中所使用的术语。
+2. 我们将学习什么 #  总的来说，我们将学习创建一个网站所需要的基础知识。
+2.1 掌握术语 #  学习编程中首先碰到的困难可能是你需要去理解编程开发中所使用的术语。
 本计划主要是面向 Web 前端开发，所以我们确实需要知道一些单词说的是什么意思。
 比如 超链接，级联样式表，函数，作用域等等。
-但是有些术语在学习初阶可以暂时忽略，比如 Monad。
-重点是我们将学习几种语言。
+ 但是有些术语在学习初阶可以暂时忽略，比如 Monad。
+ 重点是我们将学习几种语言。
 需要注意的是在创建网站的过程中所使用的的语言并不一定是编程语言，它可能只是一门计算机语言，比如我们的 HTML 和 CSS。
-我们在后面肯定会学习这俩家伙，它们通常被称为标记语言和样式语言。
-2.2 创建一个网站的过程 # 我们将使用盖房子这个比喻来探讨和阐述创建一个网站的过程。
+ 我们在后面肯定会学习这俩家伙，它们通常被称为标记语言和样式语言。
+ 2.2 创建一个网站的过程 #  我们将使用盖房子这个比喻来探讨和阐述创建一个网站的过程。
 这其中引入了创建网站所涉及的三种语言以及它们各自的作用。
-2.2.1 搭建 # 要建造房子，你需要使用到工具（比如文本编辑器，浏览器，终端）。</description></item><item><title/><link>https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/02.-html/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/02.-html/</guid><description>HTML # 1. 欢迎 #</description></item></channel></rss>
+2.2.1 搭建 #  要建造房子，你需要使用到工具（比如文本编辑器，浏览器，终端）。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/02html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rush-uni.github.io/web-dev-to-beginner-v1/docs/table-of-contents/02html/</guid>
+      <description>HTML #  1. 欢迎 #  </description>
+    </item>
+    
+  </channel>
+</rss>
